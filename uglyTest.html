@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script language="javascript" src="uglytest.js"></script>
+        <link href="uglytest.css" rel="stylesheet" type="text/css"/>
+        <title>脑残测试生成器</title>
+    </head>
+    <body>
+        <div id="createtest" class="hide">
+            <div id="aa" class="title">
+                生成结果
+                <a href="javascript:void(0)" onclick="reload();" class="return">返回重新生成</a>
+            </div>
+            <div id="name" class="name">
+            </div>
+            <div name="question" id="question" class="question">
+                <div id="1" class="detail">1<div class="guide">3&nbsp;&nbsp4</div></div>
+                <div id="2" class="detail">2<div class="guide">4&nbsp;&nbsp5</div></div>
+                <div id="3" class="detail">3<div class="guide">5A&nbsp;&nbsp6</div></div>
+                <div id="4" class="detail">4<div class="guide">6&nbsp;&nbsp7</div></div>
+                <div id="5" class="detail">5<div class="guide">7&nbsp;&nbsp8</div></div>
+                <div id="6" class="detail">6<div class="guide">8&nbsp;&nbsp9</div></div>
+                <div id="7" class="detail">7<div class="guide">9&nbsp;&nbsp10</div></div>
+                <div id="8" class="detail">8<div class="guide">10&nbsp;&nbsp11</div></div>
+                <div id="9" class="detail">9<div class="guide">11&nbsp;&nbsp12</div></div>
+                <div id="10" class="detail">10<div class="guide">12&nbsp;&nbsp13</div></div>
+                <div id="11" class="detail">11<div class="guide">13&nbsp;&nbsp14</div></div>
+                <div id="12" class="detail">12<div class="guide">14&nbsp;&nbsp15</div></div>
+                <div id="13" class="detail">13<div class="guide">15&nbsp;&nbsp16</div></div>
+                <div id="14" class="detail">14<div class="guide">16&nbsp;&nbsp17</div></div>
+                <div id="15" class="detail">15<div class="guide">17&nbsp;&nbsp18</div></div>
+                <div id="16" class="detail">16<div class="guide">18&nbsp;&nbsp19</div></div>
+                <div id="17" class="detail">17<div class="guide">19&nbsp;&nbsp20</div></div>
+                <div id="18" class="detail">18<div class="guide">20&nbsp;&nbspA</div></div>
+                <div id="19" class="detail">19<div class="guide">A&nbsp;&nbspB</div></div>
+                <div id="20" class="detail">20<div class="guide">C&nbsp;&nbspD</div></div>
+            </div>
+            <div name="result" id="result" class="result">
+                <div class="font1">
+                    测试结果:
+                </div>
+                <div class="resfont" id="A">
+                    
+                </div>
+                <div class="resfont" id="B">
+                    
+                </div>
+                <div class="resfont" id="C">
+                    
+                </div>
+                <div class="resfont" id="D">
+                    
+                </div>
+            </div>
+        </div>
+        <div name="body" id="body" class="body">
+        <div name="title" id="title" class="title">脑残测试生成器v2.0</div>
+        <div name="testinfo" id="testinfo" class="testinfo">
+            <table border="0" style="font-size:20;">
+                <tr>
+                    <td height="40px">测试名称：</td>
+                    <td><input name="qname" id="qname" type="text" placeholder="例：测测你的隐藏性格" maxlength="15"  style="width:200px; height:40px;font-size:15"></td>
+                    <td>结果类别:</td>
+                    <td>
+                        <select id="leibie" style="width:80px; height:40px;font-size:15">
+                         <option value="1">爱情</option>
+                         <option value="2">性格</option>
+                         <option value="3">运势</option>
+                        </select>
+                    </td>
+                </tr>
+            </table> 
+            <div class="infobutton"> 
+                <button name="resetinfo" id="resetinfo" class="info" onclick="resetinfo()">重置数据</button>
+                <button name="inputinfo" id="inputinfo" class="info" onclick="inputinfo()">提交数据</button>  
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

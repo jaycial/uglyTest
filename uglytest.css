@@ -1,0 +1,114 @@
+.hide
+{
+    display: none;
+}
+.body
+{
+    margin: 0 auto;
+    position: relative;
+    top:8%;
+    width:45%;
+    height: 35%;
+    font-family: 宋体;
+    background: #DEDEDE;
+    border: 1px solid #1E1E1E;
+}
+.title
+{
+    position: relative;
+    background: #5A79AE;
+    font-size:30;
+    border-bottom: 1px solid #101010;
+}
+.testinfo
+{
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    margin-top: 2%;
+    left: 3%;
+}
+.infobutton
+{
+    position: relative;
+    margin-top: 5%;
+    margin-right: 2%; 
+    float: right;
+}
+.info
+{
+    font-size: 20;
+}
+
+.createtest
+{
+    margin: 0 auto;
+    position: relative;
+    top:1%;
+    width:60%;
+    min-height: 700px;
+    _height:700px;
+    font-family: 宋体;
+    background: #DEDEDE;
+    border: 1px solid #1E1E1E;
+}
+.name
+{
+    margin:0 auto;
+    width: 40%;
+    text-align: center;
+    position: relative;
+    margin-top:1%;
+    font-size: 20;
+}
+.question
+{
+    margin:0 auto;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    margin-top:1%;
+    font-size: 15;
+}
+.detail
+{
+    margin: 0 auto;
+    width:80%;
+    text-align: left;
+    border-bottom: 1px solid #1E1E1E;
+    
+}
+.result
+{
+    margin:0 auto;
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    position: relative;
+    margin-top:1%;
+    font-size: 20;
+    border-top: 3px solid black;
+    border-bottom : 1px solid black; 
+}
+.resfont
+{
+    width: 45%;
+    height: 40%;
+    position: relative;
+    left: 5%;
+    float: left;
+    font-size: 15;
+    text-align: left;
+    border: 5px solid #DEDEDE;
+}
+.return
+{
+    float: right;
+    color: #CDCDCD;
+}
+.guide
+{
+    float: right;
+    width: 25%;
+    text-align: left;
+}
